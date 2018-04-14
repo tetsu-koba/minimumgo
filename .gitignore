@@ -18,3 +18,4 @@
 example/httpfileserver/httpfileserver
 example/initramfs/_root/
 example/initramfs/initramfs.img
+example/initramfs/zoneinfo.zip
