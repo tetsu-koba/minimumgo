@@ -1,0 +1,2 @@
+cd _root; find . | cpio --quiet -o -H newc | gzip -9 -c > ../initramfs.img
+
