@@ -1,6 +1,6 @@
 # README
 
-minimumgo: Do minimum initialization to execute single golang executables on linux kernal
+minimumgo: Do minimum initialization to execute a single golang executable on linux kernal
 
 __STATUS: This is still alpha version__
 
