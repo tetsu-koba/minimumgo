@@ -17,7 +17,11 @@ func init() {
 		log.Println(err)
 		return
 	}
-	_ = setupNetwork()
+	err = setupNetwork()
+	if err != nil {
+		log.Println(err)
+		return
+	}
 
 	if ntpServer := getKernelcmdline("minimumgo.ntp"); ntpServer != "" {
 		Ntpdate(ntpServer)
