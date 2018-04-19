@@ -10,7 +10,7 @@ import (
 
 func mountfs() error {
 	// ignore error
-	_ = os.Mkdir("/tmp", 1777)
+	_ = os.Mkdir("/tmp", 0777|os.ModeSticky)
 	_ = os.Mkdir("/etc", 0755)
 	_ = os.Mkdir("/dev", 0755)
 	_ = os.Mkdir("/proc", 0555)
